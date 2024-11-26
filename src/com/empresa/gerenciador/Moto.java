@@ -3,7 +3,7 @@ package com.empresa.gerenciador;
 public class Moto extends Veiculo implements Manutencao {
 	private int cilindrada;
 	
-	public Moto(String placa, int ano, int cilidrada) {
+	public Moto(String placa, int ano, int cilindrada) {
 		super(placa, ano);
 		this.cilindrada = cilindrada;
 	}

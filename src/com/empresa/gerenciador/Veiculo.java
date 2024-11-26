@@ -18,7 +18,7 @@ abstract class Veiculo {
 	}
 	
 	public void exibirDetalhes() {
-		System.out.println("Placa: " + ", Ano " + ano);
+		System.out.println("Placa: " + placa + ", Ano " + ano);
 	}
 	
 	public abstract double calcularValorSeguro();
